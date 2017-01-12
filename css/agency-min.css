@@ -168,7 +168,7 @@ fieldset[disabled] .btn-xl.active {
   border-color: #fed136;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  color: #808080;
+  color: white;
   font-size: 12px;
 }
 .navbar-custom .navbar-toggle:hover,
@@ -180,7 +180,7 @@ fieldset[disabled] .btn-xl.active {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
-  color: #808080;
+  color: white;
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
@@ -235,8 +235,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  color: #808080;
-  opacity:0.5;
+  color: white;
 }
 header .intro-text {
   padding-top: 100px;
@@ -259,8 +258,8 @@ header .intro-text .intro-heading {
 }
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 200px;
-    padding-bottom: 100px;
+    padding-top: 300px;
+    padding-bottom: 200px;
   }
   header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
