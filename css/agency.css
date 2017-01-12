@@ -45,6 +45,7 @@ h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+  color: #696969;
 }
 .img-centered {
   margin: 0 auto;
@@ -207,7 +208,7 @@ fieldset[disabled] .btn-xl.active {
     border: none;
   }
   .navbar-custom .navbar-brand {
-    font-size: 2em;
+    font-size: 2.5em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -218,15 +219,15 @@ fieldset[disabled] .btn-xl.active {
 }
 @media (min-width: 768px) {
   .navbar-custom.affix {
-    background-color: #222222;
+    background-color: #fff;
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 }
 header {
-  background-image: url('../img/bk-cf.png');
+  background-image: url('../img/seed-life-turq.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -236,7 +237,6 @@ header {
   -o-background-size: cover;
   text-align: center;
   color: #808080;
-  opacity:0.5;
 }
 header .intro-text {
   padding-top: 100px;
@@ -244,6 +244,7 @@ header .intro-text {
 }
 header .intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
   font-style: italic;
   font-size: 22px;
   line-height: 22px;
@@ -260,7 +261,7 @@ header .intro-text .intro-heading {
 @media (min-width: 768px) {
   header .intro-text {
     padding-top: 200px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
   }
   header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -555,8 +556,8 @@ aside.clients img {
   margin: 50px auto;
 }
 section#contact {
-  background-color: #222222;
-  background-image: url('../img/map-image.png');
+  background-color: #fff;
+  background-image: url('../img/seed-life-contact.png');
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -631,7 +632,7 @@ ul.social-buttons {
 }
 ul.social-buttons li a {
   display: block;
-  background-color: #222222;
+  background-color: #696969;
   height: 40px;
   width: 40px;
   border-radius: 100%;
@@ -745,3 +746,44 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #fed136;
 }
+
+/*Cathy Changes*/
+
+#services {
+  padding: 100px 0;
+}
+
+#services p {
+  font-size: 20px;
+  color: #696969;
+}
+
+#portfolio .btn {
+  margin-top: 30px;
+  background-color: #fed136;
+  color: white;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#portfolio .btn:hover {
+  color: #696969;
+}
+
+a.tickets {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+#contact p {
+  font-size: 20px;
+  color: #696969;
+  padding-bottom: 10px;
+}
+
+a.email {
+  font-size: 20px;
+  color: #696969;
+  text-decoration: underline;
+}
+
+
