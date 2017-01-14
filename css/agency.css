@@ -231,6 +231,9 @@ fieldset[disabled] .btn-xl.active {
   .navbar-custom {
     background-color: #fff;
   }
+  .navbar-custom .navbar-brand {
+    font-size: 22px;
+  }
 }
 
 header {
